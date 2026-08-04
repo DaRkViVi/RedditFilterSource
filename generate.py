@@ -22,20 +22,24 @@ try:
                 break
 
         if ipa_asset:
+            # URL della tua icona caricata sulla TUA repo
+            my_icon_url = "https://raw.githubusercontent.com/DaRkViVi/RedditFilterSource/main/icon.png"
+
             source_data = {
-                "name": "Community Apps",
-                "identifier": "com.custom.sidestoresource",
+                "name": "RedditDeluxe", # <-- NOME DELLA REPOSITORY MODIFICATO QUI
+                "identifier": "com.darkvivi.redditdeluxe",
+                "iconURL": my_icon_url, # <-- ICONA GLOBALE DELLA REPOSITORY
                 "apps": [
                     {
                         "name": "RedditFilter",
-                        "bundleIdentifier": "com.reddit.Reddit", # Bundle ID base di Reddit
+                        "bundleIdentifier": "com.reddit.Reddit",
                         "developerName": "surrel14",
                         "version": data["tag_name"].lstrip("v"),
                         "versionDate": data["published_at"],
                         "versionDescription": data.get("body", "Nuova release di RedditFilter"),
                         "downloadURL": ipa_asset["browser_download_url"],
                         "localizedDescription": "Reddit patched con tweak e filtri personalizzati.",
-                        "iconURL": "https://raw.githubusercontent.com/surrel14/RedditFilter/main/icon.png",
+                        "iconURL": my_icon_url, # <-- ICONA DELL'APP MODIFICATA QUI
                         "tintColor": "FF4500",
                         "size": ipa_asset["size"]
                     }
