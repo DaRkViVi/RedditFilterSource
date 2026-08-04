@@ -1,0 +1,19 @@
+{
+  "name": "Community Apps",
+  "identifier": "com.custom.sidestoresource",
+  "apps": [
+    {
+      "name": "RedditFilter",
+      "bundleIdentifier": "com.reddit.Reddit",
+      "developerName": "surrel14",
+      "version": "2026.30.0",
+      "versionDate": "2026-08-02T11:44:12Z",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/surrel14/RedditFilter/releases/download/v2026.30.0/RedditDeluxe_v2026.30.0.ipa",
+      "localizedDescription": "Reddit patched con tweak e filtri personalizzati.",
+      "iconURL": "https://raw.githubusercontent.com/surrel14/RedditFilter/main/icon.png",
+      "tintColor": "FF4500",
+      "size": 141001230
+    }
+  ]
+}
