@@ -1,6 +1,7 @@
 {
-  "name": "Community Apps",
-  "identifier": "com.custom.sidestoresource",
+  "name": "RedditDeluxe",
+  "identifier": "com.darkvivi.redditdeluxe",
+  "iconURL": "https://raw.githubusercontent.com/DaRkViVi/RedditFilterSource/main/icon.png",
   "apps": [
     {
       "name": "RedditFilter",
@@ -11,7 +12,7 @@
       "versionDescription": "",
       "downloadURL": "https://github.com/surrel14/RedditFilter/releases/download/v2026.30.0/RedditDeluxe_v2026.30.0.ipa",
       "localizedDescription": "Reddit patched con tweak e filtri personalizzati.",
-      "iconURL": "https://raw.githubusercontent.com/surrel14/RedditFilter/main/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/DaRkViVi/RedditFilterSource/main/icon.png",
       "tintColor": "FF4500",
       "size": 141001230
     }
