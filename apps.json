@@ -7,14 +7,14 @@
       "name": "RedditFilter",
       "bundleIdentifier": "com.reddit.Reddit",
       "developerName": "surrel14",
-      "version": "2026.32.0",
-      "versionDate": "2026-08-12T05:47:22Z",
-      "versionDescription": "",
-      "downloadURL": "https://github.com/surrel14/RedditFilter/releases/download/v2026.32.0/RedditDeluxe_v2026.32.0.ipa",
+      "version": "2026.32.2",
+      "versionDate": "2026-08-15T22:58:45Z",
+      "versionDescription": "Holf 3 fingers for RedditFilter menu",
+      "downloadURL": "https://github.com/surrel14/RedditFilter/releases/download/v2026.32.2/RedditDeluxe_v2026.32.2.ipa",
       "localizedDescription": "Reddit patched con tweak e filtri personalizzati.",
       "iconURL": "https://raw.githubusercontent.com/DaRkViVi/RedditFilterSource/main/icon.png",
       "tintColor": "FF4500",
-      "size": 137546431
+      "size": 137491610
     }
   ]
 }
